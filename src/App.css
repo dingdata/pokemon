@@ -1,2 +1,84 @@
 .App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+.pokemonGallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: auto;
+}
+
+.pokeName {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Add some padding inside the card container */
+.container {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px 5px 5px 5px;
+  margin: 5px;
+  background-color: lightcyan;
+}
+
+.typePoke {
+  border-radius: 2px;
+  border-style: solid;
+  border-radius: 5px 5px 5px 5px;
+  margin: 1px;
+}
+.Grass {
+  border-color: green;
+  background-color: green;
+}
+
+.Poison {
+  border-color: Purple;
+  background-color: purple;
+}
+
+.Fire {
+  border-color: red;
+  background-color: red;
+}
+
+.Water {
+  border-color: lightblue;
+  background-color: lightblue;
+}
+
+.Flying {
+  border-color: palegreen;
+  background-color: palegreen;
+}
+
+.Bug {
+  border-color: aquamarine;
+  background-color: aquamarine;
+}
+
+.Normal {
+  border-color: olive;
+  background-color: olive;
+}
+
+.Electric {
+  border-color: yellow;
+  background-color: yellow;
+}
+
+.Ground {
+  border-color: brown;
+  background-color: brown;
 }
