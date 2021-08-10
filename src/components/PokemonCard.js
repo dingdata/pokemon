@@ -12,16 +12,19 @@ function PokemonCard({ pokemon }) {
         />
       </div>
       <div className="pokeName">{name.english}</div>
+      <div className="pokeName">{name.japanese}</div>
       {type.map((subtype) => (
         <span className={`typePoke ${subtype}`}>{subtype}</span>
       ))}
-      <div>HP: {base.HP}</div>
-      <div>Attack: {base.Attack}</div>
-      <div>Defence: {base.Defence}</div>
-      <div>SPAttack: {base.SpAttack}</div>
-      <div>SPDefence: {base.SpDefence}</div>
-      <div>Speed: {base.Speed}</div>
-      {/* <Stats stats={name} /> */}
+      <div className="base">
+        <div>HP: {base.HP}</div>
+        <div>Attack: {base.Attack}</div>
+        <div>Defence: {base.Defence}</div>
+        <div>SP Attack: {base.SpAttack}</div>
+        <div>SP Defence: {base.SpDefence}</div>
+        <div>Speed: {base.Speed}</div>
+        {/* <Stats stats={name} /> */}
+      </div>
     </div>
   );
 }

@@ -1,7 +1,5 @@
 import React from "react";
 import "./App.css";
-import pokemonData from "./pokemon/pokemon";
-import PokemonCard from "./components/PokemonCard";
 import PokemonGallery from "./components/PokemonGallery";
 
 // function PokemonCard({ pokemon }) {
@@ -29,7 +27,6 @@ import PokemonGallery from "./components/PokemonGallery";
 //     </div>
 //   );
 // }
-const bulbasaur = pokemonData[0];
 
 function App() {
   return (

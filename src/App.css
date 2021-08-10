@@ -1,3 +1,5 @@
+@import url("http://fonts.cdnfonts.com/css/pokemon-solid");
+
 .App {
   text-align: center;
   display: flex;
@@ -8,8 +10,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
 }
 .pokemonGallery {
   display: flex;
@@ -18,8 +20,14 @@
 }
 
 .pokeName {
+  font-family: "Pokemon Solid", sans-serif;
   font-size: 20px;
   font-weight: bold;
+}
+.base {
+  font-family: "Pokemon Solid", sans-serif;
+  font-size: 11px;
+  margin: 10px;
 }
 
 /* Add some padding inside the card container */
@@ -30,13 +38,16 @@
   border-radius: 5px 5px 5px 5px;
   margin: 5px;
   background-color: lightcyan;
+  width: 250px;
+  height: 300px;
 }
 
 .typePoke {
   border-radius: 2px;
   border-style: solid;
   border-radius: 5px 5px 5px 5px;
-  margin: 1px;
+  margin: 2px;
+  font-family: "Pokemon Solid", sans-serif;
 }
 .Grass {
   border-color: green;
