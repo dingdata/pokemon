@@ -1,4 +1,5 @@
 import React from "react";
+import Stats from "../stats";
 
 function PokemonCard({ pokemon }) {
   const { id, name, type, base } = pokemon;
@@ -16,15 +17,15 @@ function PokemonCard({ pokemon }) {
       {type.map((subtype) => (
         <span className={`typePoke ${subtype}`}>{subtype}</span>
       ))}
-      <div className="base">
+      {/* <div className="base">
         <div>HP: {base.HP}</div>
         <div>Attack: {base.Attack}</div>
         <div>Defence: {base.Defence}</div>
         <div>SP Attack: {base.SpAttack}</div>
         <div>SP Defence: {base.SpDefence}</div>
         <div>Speed: {base.Speed}</div>
-        {/* <Stats stats={name} /> */}
-      </div>
+      </div> */}
+      <Stats base={base} />
     </div>
   );
 }

@@ -1,4 +1,7 @@
 @import url("http://fonts.cdnfonts.com/css/pokemon-solid");
+* {
+  font-family: "Pokemon Solid", sans-serif;
+}
 
 .App {
   text-align: center;
@@ -20,17 +23,14 @@
 }
 
 .pokeName {
-  font-family: "Pokemon Solid", sans-serif;
   font-size: 20px;
   font-weight: bold;
 }
 .base {
-  font-family: "Pokemon Solid", sans-serif;
   font-size: 11px;
   margin: 10px;
 }
 
-/* Add some padding inside the card container */
 .container {
   border-color: black;
   border-width: 1px;
@@ -47,7 +47,6 @@
   border-style: solid;
   border-radius: 5px 5px 5px 5px;
   margin: 2px;
-  font-family: "Pokemon Solid", sans-serif;
 }
 .Grass {
   border-color: green;
