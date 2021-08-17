@@ -47,6 +47,7 @@
   border-style: solid;
   border-radius: 5px 5px 5px 5px;
   margin: 2px;
+  width: 15px;
 }
 .Grass {
   border-color: green;
